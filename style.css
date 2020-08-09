@@ -1,0 +1,52 @@
+#main{
+    background-color: skyblue;
+    border : 2px solid black
+}
+h1{
+    color:black;
+    font-size: 100px;
+    text-align: center;
+}
+#h1{
+    height: 130px;;
+
+}
+.fieldset{
+    border: 2px solid black;
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 200px;
+    background-color: lightgreen;
+    margin-top: 5px;
+    
+}
+
+
+.p{
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: cornflowerblue;
+    margin-left: 550px;
+    margin-right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1070px){
+    .fieldset{
+        border: 2px solid black;
+        width: 700px;
+        margin-left: 10px;
+        margin-right: 200px;
+        background-color: lightgreen;
+        margin-top: 5px;
+        
+    }
+}
